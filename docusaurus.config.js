@@ -57,6 +57,7 @@ const config = {
         // Plugin Options for loading OpenAPI files
         specs: [
           {
+            id: "example-id-ecom",
             spec: "docs/ecom/openApi/swagger.yaml",
             route: "/api/ecom",
           },
